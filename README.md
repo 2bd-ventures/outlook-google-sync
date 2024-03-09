@@ -29,7 +29,7 @@ To replicate this solution, follow these steps:
 2. **Share your Outlook Calendar**
 	* Activate sharing of your Outlook calendar and obtain the ICS sharing URL through the Outlook UI. [explained here](https://support.microsoft.com/en-gb/office/share-your-calendar-in-outlook-com-0fc1cb48-569d-4d1e-ac20-5a9b3f5e6ff2)
 3. **Create a new Google App Script**
-	* Create a new Script
+	* Create a [new Script](https://script.google.com/)
 	* Copy-paste the code from [this template](https://github.com/2bd-ventures/outlook-google-sync/blob/main/Code.gs)
 	* Add the Google Calendar API Service using the respective button on the left side 
 	* Alter the variables *CALENDAR_ID* and *ICAL_URL* (you can call the function several times, if, like me, you have multiple Outlook Calendars to track)
