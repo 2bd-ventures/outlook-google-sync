@@ -31,8 +31,11 @@ To replicate this solution, follow these steps:
 	* Activate sharing of your Outlook calendar and obtain the ICS sharing URL through the Outlook UI. [explained here](https://support.microsoft.com/en-gb/office/share-your-calendar-in-outlook-com-0fc1cb48-569d-4d1e-ac20-5a9b3f5e6ff2)
 3. **Create a new Google App Script**
 	* Create a new Script
-	* Copy-paste the code from this template
+	* Copy-paste the code from [this template](https://github.com/2bd-ventures/outlook-google-sync/blob/main/Code.gs)
+	* Add the Google Calendar API Service using the respective button on the left side 
 	* Alter the variables *CALENDAR_ID* and *ICAL_URL*
+	* Make sure the fuction set to run is the *updateCalendars* and hit Run (this will run for the first time and will require you to give permissions for the script to act on your behalf)
+	* *Pain #3*: You will see the on the script I invite a dummy email to each meeting, this is due to Notion Calendar's settings which will not create the sticky push notification unless an event includes a guest 🤷
 4. **Create a new trigger for the script**
 	* Create a new time-based trigger for the script and adjust the update frequency that you wish.
 
