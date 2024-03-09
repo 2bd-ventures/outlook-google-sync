@@ -9,7 +9,7 @@ function syncCalendar(googleCalendarId, outlookIcsUrl) {
   var outlookId = 'outlook-id'
 
   var calendar = CalendarApp.getCalendarById(googleCalendarId);
-  var iCalEvents = parseICal(outlookIcsUrl); // This function needs to be implemented
+  var iCalEvents = parseICal(outlookIcsUrl);
 
   var today = new Date();
   var thirtyDaysLater = new Date();
