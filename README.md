@@ -37,5 +37,6 @@ To replicate this solution, follow these steps:
 	* *Pain #3*: You will see on the script I invite a dummy email to each meeting; this is due to Notion Calendar's settings, which will not create the sticky push notification unless an event includes a guest 🤷
 4. **Create a new trigger for the script**
 	* Create a new time-based trigger for the script and adjust the update frequency as needed.
+	* Beware of the [App Script runtime limitations](https://developers.google.com/apps-script/guides/services/quotas) based on your plan/account
 
 🎉 Voilá!
