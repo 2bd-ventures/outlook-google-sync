@@ -63,7 +63,7 @@ function parseICal(url) {
   if (matches) {
     matches.forEach(function (eventData) {
       // Preprocess eventData to handle multi-line fields
-      var preprocessedEventData = eventData.replace(/\n /g, '')
+      var preprocessedEventData = eventData.replace(/\r\n /g, '')
 
       var event = {};
       var lines = preprocessedEventData.split('\n');
